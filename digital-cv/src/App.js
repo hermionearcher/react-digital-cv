@@ -6,23 +6,23 @@ function App() {
       <div id="container--main">
 
         <section id="wrapper--hero" className="section--page">
-          <img id="profile-pic" src="../assets/images/pexels-cihan-oğuzmetin-4463934.jpg" />
+          <img id="profile-pic" alt="Profile" src="https://cdn.vox-cdn.com/thumbor/W--ap_tOYIcTHpub0JEgMMAvtWc=/0x0:6240x4160/1200x800/filters:focal(2621x1581:3619x2579)/cdn.vox-cdn.com/uploads/chorus_image/image/70852141/1395731906.0.jpg" />
 
           <div>
-            <h1 id="user-name">Dennis Ivanov</h1>
-            <p id="bio">Software developer, developer advocate at <a href="https://www.agora.io/en/" target="_blank">Agora</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> with 166k+ subs and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
-            <p id="email">👉 dennis@dennisivy.com</p>
+            <h1 id="user-name">Me...</h1>
+            <p id="bio">Web Developer <a href="https://www.agora.io/en/" target="_blank" rel="noreferrer">Yorkshire Water</a>, previously at <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank" rel="noreferrer">Atos</a> as a Angular developer.</p>
+            <p id="email">👉 ha@email.com</p>
           </div>
         </section>
 
         <section className="section--page">
 
           <div id="socials--list">
-            <a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a>
-            <a href="https://twitter.com/dennisivy11" target="_blank">Twitter</a>
+            {/* <a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a>
+            <a href="https://twitter.com/dennisivy11" target="_blank">Twitter</a> */}
             <a href="https://www.linkedin.com/in/dennis-ivanov/" target="_blank">Linkedin</a>
             <a href="https://github.com/divanov11" target="_blank">Github</a>
-            <a href="./assets/resume.pdf" target="_blank">Download Resume</a>
+            <a href="./assets/resume.pdf" target="_blank">Download my CV</a>
           </div>
         </section>
 
@@ -54,9 +54,9 @@ function App() {
           <div className="card--work-history">
             <strong>🚧 DEVELOPER ADVOCATE | AGORA.IO</strong>
             <p>11/2021 - Present</p>
-            <p>Worked on making Agora’s Web Based SDK more accessible through video tutorials, articles, demo projects and event based training. Also building out React UI components & leading a team to re-design Agora’s documentation and api reference.</p>
+            <p>Worked on making Agora's Web Based SDK more accessible through video tutorials, articles, demo projects and event based training. Also building out React UI components & leading a team to re-design Agora's documentation and api reference.</p>
             <ul>
-              <li>Doubled Web SDK’s monthly usage minutes from 15 million to 30 million minutes within my first 4 months</li>
+              <li>Doubled Web SDK's monthly usage minutes from 15 million to 30 million minutes within my first 4 months</li>
               <li>Produced educational video content which resulted in 300k+ views on youtube</li>
               <li>Produced SEO campaigns and content to gain market share for related keywords.</li>
             </ul>
