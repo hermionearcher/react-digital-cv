@@ -130,6 +130,11 @@ a {
     color: var(--mainLinkColor);
 }
 
+.show--more {
+    text-align: center;
+    cursor: pointer;
+}
+
 .card--project {
     padding-top: 1em;
     padding-bottom: 1em;
