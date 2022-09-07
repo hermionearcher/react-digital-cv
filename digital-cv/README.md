@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Article on how to use Notion as DB 
+
+[Got up to share integration step](https://dev.to/alexeagleson/how-to-connect-a-react-app-to-a-notion-database-51mc)
+
 ## Available Scripts
 
 In the project directory, you can run:
