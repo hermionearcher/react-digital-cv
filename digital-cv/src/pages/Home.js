@@ -8,11 +8,11 @@ const Home = () => {
     <div id="container--main">
 
       <section id="wrapper--hero" className="section--page">
-        <img id="profile-pic" alt="Profile" src="../assets/images/h-a-profile-picture.JPG" />
+        <img id="profile-pic" alt="Profile" src="https://github.com/hermionearcher/react-digital-cv/blob/main/digital-cv/assets/images/h-a-profile-picture.JPG?raw=true" />
 
         <div>
           <h1 id="user-name">Me...</h1>
-          <p id="bio">JavaScript Software Developer <a href="https://www.agora.io/en/" target="_blank" rel="noreferrer">Yorkshire Water</a>, previously at <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank" rel="noreferrer">Atos</a> as a Angular developer.</p>
+          <p id="bio">JavaScript Software Developer <a href="https://www.yorkshirewater.com/" target="_blank" rel="noreferrer">Yorkshire Water</a>, previously at <a href="https://atos.net/en/" target="_blank" rel="noreferrer">Atos</a> as a Angular developer.</p>
           <p id="email">👉 ha@email.com</p>
         </div>
       </section>
@@ -24,7 +24,7 @@ const Home = () => {
           <a href="#my-work" >My Projects</a>
           <a href="https://www.linkedin.com/in/h-archer/" target="_blank">Linkedin</a>
           <a href="https://github.com/hermionearcher" target="_blank">Github</a>
-          <a href="./assets/resume.pdf" target="_blank">Download my CV</a>
+          <a href="../../assets/h-a-cv-22.pdf" target="_blank">Download my CV</a>
         </div>
       </section>
 
@@ -32,10 +32,10 @@ const Home = () => {
       <section className="section--page">
         <h2>Skills & Qualifications</h2>
         <ul id="qualifications--list">
-          <li>✔️ Data and SQL certification</li>
-          <li>✔️ 200 hours+ JavaScript and Data Structures course</li>
           <li>✔️ 1 Year industry experience as a developer </li>
-          {/* <li>✔️ 7 Years experience with running Adwords campaigns & SEO</li> */}
+          <li>✔️ Data and SQL Certification</li>
+          <li>✔️ 150 hours+ JavaScript Algorithms and Data Structures course</li>
+          <li>✔️ Agile Awareness Level 1 Certification </li>
         </ul>
       </section>
 

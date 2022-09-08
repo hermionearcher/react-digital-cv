@@ -86,7 +86,14 @@ a {
 #email {
     color: var(--mainTextColor);
 }
-
+.disabled {
+    font-weight: 300;
+    font-size: 0.9em;
+    transition: 0.3s;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
 #socials--list {
     display: flex;
     justify-content: space-between;
@@ -106,6 +113,8 @@ a {
     color: var(--mainLinkColor);
     font-size: 0.9em;
 }
+
+
 
 #qualifications--list {
     list-style: none;
