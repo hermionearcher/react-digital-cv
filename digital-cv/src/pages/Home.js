@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ProjectSection from './ProjectSection';
+import ToggleSwitch from './ToggleSwitch';
 
 const Home = () => {
   const [showMore, setShowMore] = useState(false);
@@ -104,6 +105,9 @@ const Home = () => {
       </section>
 
       <ProjectSection />
+
+      {/* Toggle Switch */}
+          <ToggleSwitch />
 
     </div>
   )
