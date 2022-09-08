@@ -8,7 +8,7 @@ const Home = () => {
     <div id="container--main">
 
       <section id="wrapper--hero" className="section--page">
-        <img id="profile-pic" alt="Profile" src="https://cdn.vox-cdn.com/thumbor/W--ap_tOYIcTHpub0JEgMMAvtWc=/0x0:6240x4160/1200x800/filters:focal(2621x1581:3619x2579)/cdn.vox-cdn.com/uploads/chorus_image/image/70852141/1395731906.0.jpg" />
+        <img id="profile-pic" alt="Profile" src="../assets/images/h-a-profile-picture.JPG" />
 
         <div>
           <h1 id="user-name">Me...</h1>
@@ -23,7 +23,7 @@ const Home = () => {
           {/* <a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a> */}
           <a href="#my-work" >My Projects</a>
           <a href="https://www.linkedin.com/in/h-archer/" target="_blank">Linkedin</a>
-          <a href="https://github.com/divanov11" target="_blank">Github</a>
+          <a href="https://github.com/hermionearcher" target="_blank">Github</a>
           <a href="./assets/resume.pdf" target="_blank">Download my CV</a>
         </div>
       </section>
