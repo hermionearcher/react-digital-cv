@@ -10,6 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Article on how to use Notion as DB 
 
+
+Look into using AirTable 
+
 [Got up to share integration step](https://dev.to/alexeagleson/how-to-connect-a-react-app-to-a-notion-database-51mc)
 
 ## Available Scripts

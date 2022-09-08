@@ -4,7 +4,6 @@ import ToggleSwitch from './ToggleSwitch';
 
 const Home = () => {
   const [showMore, setShowMore] = useState(false);
-
   return (
     <div id="container--main">
 
@@ -106,8 +105,8 @@ const Home = () => {
 
       <ProjectSection />
 
-      {/* Toggle Switch */}
-          <ToggleSwitch />
+      {/* Toggle Switch
+      <ToggleSwitch /> */}
 
     </div>
   )
