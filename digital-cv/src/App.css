@@ -86,6 +86,7 @@ a {
 #email {
     color: var(--mainTextColor);
 }
+
 .disabled {
     font-weight: 300;
     font-size: 0.9em;
@@ -94,6 +95,7 @@ a {
     cursor: default;
     text-decoration: none;
 }
+
 #socials--list {
     display: flex;
     justify-content: space-between;
@@ -152,7 +154,6 @@ a {
 
 .card--project a {
     color: var(--mainTextColor);
-
     transition: 0.3s;
 }
 
@@ -184,11 +185,13 @@ a {
     display: inline-block;
     width: 50px;
     height: 25px;
-  }
-  .toggle-switch input[type="checkbox"] {
+}
+
+.toggle-switch input[type="checkbox"] {
     display: none;
-  }
-  .toggle-switch .switch {
+}
+
+.toggle-switch .switch {
     position: absolute;
     cursor: pointer;
     background-color: #ccc;
@@ -198,8 +201,9 @@ a {
     bottom: 0;
     left: 0;
     transition: background-color 0.2s ease;
-  }
-  .toggle-switch .switch::before {
+}
+
+.toggle-switch .switch::before {
     position: absolute;
     content: "";
     left: 2px;
@@ -209,14 +213,52 @@ a {
     background-color: #aaa;
     border-radius: 50%;
     transition: transform 0.3s ease;
-  }
-  .toggle-switch input[type="checkbox"]:checked + .switch::before {
+}
+
+.toggle-switch input[type="checkbox"]:checked+.switch::before {
     transform: translateX(25px);
     background-color: #6699cc;
-  }
-  .toggle-switch input[type="checkbox"]:checked + .switch {
+}
+
+.toggle-switch input[type="checkbox"]:checked+.switch {
     background-color: #336699;
-  }
+}
+
+/* Contact form */
+
+.form--control {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid var(--mainBorderColor);
+}
+
+.contact--container span {
+    padding: 20px 0 20px 0;
+}
+input, textarea {
+    background-color: var(--mainBgColor);
+    border: none;
+    border-bottom: 1px solid var(--secondaryTextColor);;
+    margin: 10px 0 10px 0;
+    transition: 0.3s;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+.btn{
+    background-color: var(--mainBgColor);
+    color: var(--secondaryTextColor);
+}
+
+.btn:hover {
+    color: var(--mainLinkColor);
+    cursor: pointer;
+}
 
 
 @media(max-width:600px) {

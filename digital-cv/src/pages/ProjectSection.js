@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ProjectData from '../data/projects.json'
 
 const ProjectSection = () => {
@@ -12,12 +11,10 @@ const ProjectSection = () => {
                 return (
                     <div className="card--project" key={key} >
                         <a href={`/project/${project.id}`}><span>🏆 </span>{project.title}</a>
-                        {/* <Link to={project.id}><span>🏆 </span>{project.title}</Link> */}
-
                     </div>
                 )
             })}
-        </section>  
+        </section>
 
     )
 }

@@ -5,15 +5,6 @@ import ProjectData from '../data/projects.json'
 const Project = ({ }) => {
   const params = useParams();
   const project = ProjectData[params.id - 1]
-  // const paginiationId = () => {
-  //   if (project.id - 1 <= 0 || project.id + 1 > ProjectData.length) {
-  //     console.log("disabled")
-  //     return 'disabled'
-  //   } else {
-  //     console.log("OK")
-  //     return ''
-  //   }
-  // }
 
   return (
     <body>
@@ -42,7 +33,6 @@ const Project = ({ }) => {
         <section className="section--page">
 
           <div id="socials--list">
-            {/* <a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a> */}
             <a href={`/project/${project.id - 1}`} className={project.id - 1 <= 0 ? 'disabled' : ''}>Previous</a>
             <a href={`/project/${project.id + 1}`} className={project.id + 1 > ProjectData.length ? 'disabled' : ''}>Next</a>
           </div>

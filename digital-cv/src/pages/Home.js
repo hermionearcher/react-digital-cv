@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Contact from '../components/Contact';
 import ProjectSection from './ProjectSection';
 import ToggleSwitch from './ToggleSwitch';
 
@@ -13,7 +14,7 @@ const Home = () => {
         <div>
           <h1 id="user-name">Me...</h1>
           <p id="bio">JavaScript Software Developer <a href="https://www.yorkshirewater.com/" target="_blank" rel="noreferrer">Yorkshire Water</a>, previously at <a href="https://atos.net/en/" target="_blank" rel="noreferrer">Atos</a> as a Angular developer.</p>
-          <p id="email">👉 ha@email.com</p>
+          <p id="email">👉<a href="#contact"> Let's talk</a></p>
         </div>
       </section>
 
@@ -108,6 +109,8 @@ const Home = () => {
       {/* Toggle Switch
       <ToggleSwitch /> */}
 
+
+      <Contact />
     </div>
   )
 }
